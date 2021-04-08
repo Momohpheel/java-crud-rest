@@ -15,12 +15,12 @@ public class AdminService {
 
     @Autowired
     AdminRepository adminRepository;
-
-    public Admin login(){}
-
-    public Admin register(){}
-
-    public List<User> getAllUsers(){}
-
-    public void deleteUser(){}
+//
+//    public Admin login(){}
+//
+//    public Admin register(){}
+//
+//    public List<User> getAllUsers(){}
+//
+//    public void deleteUser(){}
 }

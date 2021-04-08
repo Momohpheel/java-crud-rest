@@ -20,11 +20,17 @@ public class UserController {
     @Autowired
     UserService userService;
 
+    @GetMapping("/name")
+    public String name(){
+        return "Philip";
+    }
+
     //getAll
     @GetMapping("/users")
     public List<User> getAll(){
         return userService.getAll();
     }
+
 //    //getOnebyId
 //    @GetMapping("/user/{id}")
 //    public User get(@PathVariable("id") Integer id){
